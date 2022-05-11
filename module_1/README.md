@@ -6,16 +6,16 @@ The module have created for learning saltstack, so it's very simple module
 
 
 **Module details:**
-vpc - one vpc
-subnet - one subnet
-internet gateway - connected to vpc
-route table - connceted to vpc and internet gateway
-aws_route_table_association - connected to subnet and route table
-security groupe - ingerss: port 22 specific ip, ingress open in subnet all port, egrees all 
-instance - tow instance in a subnet and vpc. in one of them attach a 20 GB  volume
-aws_key_pair - just once for all instance
-aws_ebs_volume - 
-aws_volume_attachment - attaches to aws_ebs_volume
+vpc - one vpc,
+subnet - one subnet,
+internet gateway - connected to vpc,
+route table - connceted to vpc and internet gateway,
+aws_route_table_association - connected to subnet and route table,
+security groupe - ingerss: port 22 specific ip, ingress open in subnet all port, egrees all,
+instance - tow instance in a subnet and vpc. in one of them attach a 20 GB  volume,
+aws_key_pair - just once for all instance,
+aws_ebs_volume - nothing special
+aws_volume_attachment - attaches to aws_ebs_volume,
 
 **Variable:**
 region - The region,

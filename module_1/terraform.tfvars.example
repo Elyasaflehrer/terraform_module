@@ -1,0 +1,17 @@
+common_tags           = {"Owner" = "elyasaf.lehrer"}
+region                = "eu-central-1"
+cidr_block_vpc        = "170.0.0.0/16"
+cidr_block_subnet1    = "170.0.0.0/24"
+launch_public_ip      = true
+az_1                  = "eu-central-1a"
+cidr_block_port_22    = ["213.151.43.151/32"]
+local_computer_ip     = "213.151.43.151/32"
+cidr_block_egress     = ["0.0.0.0/0"]
+ami_ubuntu            = "ami-02584c1c9d05efa69"
+instance_type_ubuntu  = "t2.micro"
+count_ubuntu_server   = 1
+ami_windows           = "ami-0aed02946a88539dc" 
+instance_type_windows = "t2.micro"
+count_windows_server  = 1
+device_name_master    = "/dev/sdh"
+device_size_master    = 20

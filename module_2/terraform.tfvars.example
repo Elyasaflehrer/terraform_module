@@ -1,0 +1,16 @@
+region                      = "eu-central-1"
+common_tags                 = {Project = "alb_project"}
+ami_instance                = "ami-02584c1c9d05efa69"
+instance_type               =  "t2.micro"
+associate_public_ip_address = true
+load_balancer_type          = "application"
+alb_subnets                 = [aws_subnet.subnet1.id, aws_subnet.subnet2.id]
+security_groups             = [aws_security_group.default.id]
+cidr_block_route_table      =  "0.0.0.0/0"
+cidr_blocks_ssh             = ["0.0.0.0/0"]
+cidr_blocks_egress          = ["0.0.0.0/0"]
+cidr_block_subnet1          = "172.0.0.0/24"
+cidr_block_subnet2          = "172.0.1.0/24"
+region_subnet1              = "eu-central-1a"
+region_subnet2              = "eu-central-1b"
+cidr_block_vpc              = "172.0.0.0/16"  

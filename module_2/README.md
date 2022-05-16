@@ -1,7 +1,7 @@
 # terraform_module
 bundle of terraform module
 
-The module have created for learning Application Load Balancer (ALB), with Certificate Manager (ACM) and Rout53
+The module have been creating for learning Application Load Balancer (ALB), with Certificate Manager (ACM) and Rout53
 
 
 

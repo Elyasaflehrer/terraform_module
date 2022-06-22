@@ -1,0 +1,6 @@
+resource "aws_key_pair" "kp" {
+  key_name   = "myKey_atlantis_server"       
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCSTewr5KrqfQuwSO5I4jCAsFtYMq+9Sxf4kkB+DJk4RutxmhntBOxD4FRE6yoo/lk3KdxL0VPg0dEvovEXSmtyFS3sxUZv+MQvhF7UarPJ5TJCkQeeTWgHWSOMXhM55UGIXgVBoaDSELojxvdYoFLaC63CGA8FRLIifn+fXTli9Ma5K+bsjzOBquXKYAjLxK8UVh397pulqT5Oi5EPRqpfBdQKRAg8aLd5dpzBaMAQOx65kD3AvJHebpYK80nm3bDTQj+HpHdxFw2YbPIvx0AX5JWLEqAqTHALkgkqjyR4epWJMADjmPdNumHgqQPoaW9OivXsEq70hXlAXl07obF6dvvSVZPiT2JSe64Jc7zmcEc57t9Ze5dLNiIMVVa98UIuG/oreffxsjlAm6mCYvbTCWDz7csC3G0RQz+b/OysmmWlBV9XQGb2+I9TdGIuQ7renLB0tVnUC4TJXHfZ9deyLyxdR9KoquFj+axpVWGkqyI40PNCbcPo4BdKIR0d1b0= ubuntu@ip-172-31-22-109"
+}
+
+

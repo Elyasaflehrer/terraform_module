@@ -1,0 +1,19 @@
+common_tags           = {"Owner" = "elyasaf.lehrer"}
+region                = "eu-central-1"
+cidr_block_vpc        = "170.0.0.0/16"
+cidr_block_subnet1    = "170.0.0.0/24"
+cidr_block_subnet2    = "170.0.1.0/24"
+launch_public_ip      = true
+az_1                  = "eu-central-1a"
+az_2                  = "eu-central-1b"
+cidr_block_port_22    = ["0.0.0.0/0"]
+cidr_block_egress     = ["0.0.0.0/0"]
+ami_ubuntu            = "ami-02584c1c9d05efa69"
+instance_type_ubuntu  = "t2.micro"
+port_alb_leastiner_http = 80 
+protocol_alb_leastiner_http = "HTTP"
+route53_zone_domain_name = "domain_name.com"
+port_tg_1 = 80
+protocol_tg_1 = "HTTP"
+port_tg_port_4141 = 4141
+protocol_tg_port_4141 = "HTTP"

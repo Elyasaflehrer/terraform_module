@@ -1,0 +1,13 @@
+common_tags           = {"Owner" = "elyasaf.lehrer"}
+region                = "eu-west-2"
+cidr_block_vpc_a      = "190.10.0.0/16"
+cidr_block_vpc_b      = "190.20.0.0/16"
+az_a                  = "eu-west-2a"
+az_b                  = "eu-west-2b"
+az_c                  = "eu-west-2c"      
+
+cidr_block_pub_sup_a = "190.10.0.0/24"
+cidr_block_pri_sup_b = "190.10.1.0/24"
+cidr_block_pri_sup_c = "190.20.1.0/24"
+ami_instance         = "ami-0fb391cce7a602d1f"
+type_instance        = "t2.micro"
